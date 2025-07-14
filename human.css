@@ -1,0 +1,648 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    position: sticky;
+    top: 0%;
+    color: white;
+}
+.
+.sect1 {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.navs-items {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.navs-items>a {
+    font-weight: 800;
+    font-size: 14px;
+    border-radius: 4px;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.navs-items>button {
+    padding: 15px 30px;
+    background-color: gainsboro;
+    border: none;
+    font-weight: 800;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+.section1 {
+ 
+    background-image: linear-gradient(transparent, rgb(13, 21, 34)), url(Multimedia-Folder/KeyArt_Oceania_3840x2160\ \(2\)\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    font-size: 12px;
+    padding: 30px;
+    
+
+
+}
+.section1 img{
+    width: 50%;
+   object-fit: cover;
+}
+
+.section1>button {
+padding:  30px;
+    background-color: transparent;
+    border-color: white;
+    color: white;
+    font-weight: 900;
+    font-size: 25px;
+    border-radius: 3px;
+
+}
+
+.section2 {
+    margin-top: 10px;
+    padding: 70px 30px;
+    /* height: 100vh; */
+    background-color: rgb(13, 20, 34);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 15px;
+    font-weight: 200;
+
+
+}
+
+.section2 img {
+    align-self: center;
+    width: 50%;
+}
+
+
+.bigsect {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   gap: 30px;
+   
+}
+
+ .bigsect>div {
+    position: relative;
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+} 
+.bigsect>div>h2{
+    position: absolute;
+    top: 70%; right: 35%;
+    font-size: 15px;
+    font-weight: 800;
+    text-transform: uppercase;
+} 
+
+.bigsect>div>video {
+    object-fit: cover;
+    width: 100%;
+    border-radius: 10px;
+    position: relative;
+}
+
+
+
+
+
+/* sec2{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    padding: 80px 0px;
+    gap: 20px;
+}
+
+vid-group{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+vid-group>video{
+    border-radius: 10px;
+} */
+
+/* vid-group :nth-child(4) {
+position: absolute;
+}
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.section3 {
+    /* height: 80vh; */
+    background-image: url(Multimedia-Folder/imageye___-_promo-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 120px 60px;
+   justify-items: center;
+     display: flex;
+     gap: 40px; 
+    font-size: 20px; 
+   justify-content: center;
+}
+
+
+.play,
+.playimg {
+    /* flex-basis: 50%; */
+
+}
+
+.section3 img {
+    width: 100%;
+    object-fit: cover;
+    box-shadow: 5px 5px 5px black;
+}
+
+
+.play button {
+    padding: 15px 30px;
+    background-color: rgb(19, 22, 34);
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 3px;
+}
+
+
+
+.play h1 {
+     font-weight: 600;
+    font-size: 30px;
+  
+}
+
+
+
+
+.section4 {
+
+    background-image: url(https://cdn.sega.co.uk/humankind-game/public/styles/1600/public/content/media/bg/image/second-promo-landscape.jpg?VersionId=9CTwOKa0LLS8WfssBCPlR9khrmCi8Em3&itok=iN7a66Oj);
+    background-size: cover;
+    color: white;
+    display: flex;
+    padding: 120px 60px;
+    justify-content:center;
+    gap: 20px;
+    font-size: 18px;
+      font-weight: 300;
+}
+
+.section4>div{
+    /* flex-basis: 5%; */
+}
+.section4 img{
+    object-fit: cover;
+    width: 100%;
+}
+
+.sect4 button{
+    padding: 15px 30px;
+    font-weight: 600;
+    border-radius: 4px;
+    border: 2px solid transparent;
+}
+
+.section5{
+    background-image: url(Multimedia-Folder/imageye___-_quote_bg.jpg);
+    height: 50vh;
+    background-size: cover;
+    color: white;
+    display: flex;
+     justify-content: center;
+    align-items: center; 
+    font-size: 30px;
+    position: relative;
+    
+
+}
+.anime{
+   position: absolute;
+   top: 45%; 
+   animation-iteration-count: infinite;
+   font-size: 20px;
+   
+   
+}
+.anim1{
+    animation-name: anim1;
+    animation-delay: 4s;
+    animation-duration: 11s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes anim1 {
+    0%{
+        opacity: 0;
+        
+    }
+    10%{
+        opacity: 1;
+    }
+    20%{
+        opacity: 0.5;
+    }
+    50%{
+        opacity: 0;
+    }
+100%{
+    opacity: 0;
+}
+   
+} 
+
+
+
+.anim2{
+    animation-name: anim2;
+    animation-delay: 6s;
+    animation-duration: 11s;
+    animation-timing-function: ease-in-out;
+    opacity: 0;
+
+    
+}
+
+@keyframes anim2 {
+    0%{
+        opacity: 0;
+        
+    }
+    25%{
+        opacity: 1;
+    }
+    40%{
+        opacity: 0.5 ;
+    }
+    50%{
+        opacity:0;
+    }
+60%{
+    opacity: 0;
+}
+   
+}
+
+
+
+.anim3{
+    animation-name: anim3;
+    animation-duration: 9s;
+    animation-delay: 9s;
+    animation-timing-function: ease-in-out;
+    opacity: 0;
+
+   
+    
+   
+}
+
+
+@keyframes anim3 {
+    0%{
+        opacity: 0;
+        
+    }
+    25%{
+        opacity: 0;
+    }
+    60%{
+        opacity: 0;
+    }
+    75%{
+        opacity: 1;
+    }
+    100{ 
+        opacity: 0;
+    }
+/* 100%{
+    opacity: 0;
+} */
+   
+}
+
+/* .anime{
+
+} */
+
+
+
+/* .anime::before{ content: '';
+    animation-name:oppa;
+    animation-timing-function: ease-in-out;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+      
+
+
+}
+
+ 
+
+@keyframes oppa {
+0%{ content: ' "GRAND HISTORICAL STRATEGY IS GETTING THE SHAKE-UP IT DESERVES"'
+    
+  }
+ 
+40%{
+      content: ' "HUMANKIND IS A TRIPE-A GAME,  AND IT SHOWS"   ';
+
+}
+
+80%{
+   content: ' " AMPLITUDE IS CREATING SOMETHING REALLY QUITE EXCITING"';
+
+}
+    
+} */
+
+.section6{
+    background-color: black;
+    color: white;
+    padding: 50px 30px;
+
+}
+.official{
+    position: relative;
+    display: grid;
+   align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+.button{
+position: absolute;
+right: 10%; top: 10px;
+}
+
+.off1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+     gap: 20px;
+    
+}
+.off1>img{
+    object-fit: cover;
+    width: 100%;
+}
+.off2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+   
+}
+.off2>img{
+    object-fit: cover;
+    width: 100%;
+}
+.official>.button>button{
+   padding: 10px 30px; 
+   background-color: transparent;
+   border: 2px solid white;
+   color: white;   
+}
+
+.official>h1{
+    text-align: center;
+}
+
+.section7{
+    height: 40vh;
+    background-image: url(Multimedia-Folder/imageye___-_G2G-Background.jpg);
+    background-size: cover;
+    font-size: 17px;
+     padding: 40px ;
+     color: white;
+    
+    
+}
+
+.section7> .sect7>button{
+    padding: 10px 40px;
+    background-color: transparent;
+    border: 3px solid white;
+    color: white;
+
+}
+
+/* .section7>.sect7 button:hover{
+    color: black;
+    background-color: white;
+} */
+.sade{
+    width: 20px;
+    background-color: blue;
+   
+}
+.sade>img:hover{
+    color: black;
+}
+ /* .section7>.sect7 button:hover> .sade{
+    color: black;
+
+}  */
+
+.sect7{
+    display: flex;
+  flex-direction: column;
+ align-items:start;
+
+ gap: 20px;
+ 
+}
+footer{
+    background-color: #13223f;
+   
+}
+.footer{
+    padding: 60px 50px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 20px;
+}
+.logo{
+    display: flex;
+    gap: 30px;
+}
+
+
+.footer>div>img{
+width: 90px;
+
+}
+
+.short{
+    display: flex;
+    gap: 30px;
+}
+.footlogo{
+    display: flex;
+    gap: 10px;
+}
+/* .footlogo img{
+    object-fit: cover;
+    width: 100%;
+} */
+
+.footer>.footlogo>img{
+    width: 20px;
+}
+.footbox{
+    width: 200px; height: 40px;
+    padding-top: 5px;
+    background-color: transparent;
+    border: 2px solid white;
+    text-align: center;
+}
+#stamp{
+   width: 200px;
+    object-fit: cover;
+}
+.footer>a{
+    color: white;
+    text-decoration: none;
+}
+.footer>a:hover{
+    text-decoration: underline;
+}
+#corn{
+    position: sticky;
+    left: 0%;
+    bottom: 0%;
+}
+
+/* 1024 screen */
+@media screen and (max-width:1024px) {
+    .bigsect>div>h2{ position: absolute;
+        top: 50%; right: 20%;
+        
+    }
+}  
+
+
+/* 768 screen */
+@media screen and (max-width:768px) {
+   .bigsect{
+    grid-template-columns: 1fr 1fr;
+   }
+   .bigsect>div>h2{
+    top: 70%; right: 35%;
+   }
+   .off1{
+    grid-template-columns: 1fr;
+   }
+   .off2{
+    grid-template-columns: 1fr 1fr;
+   }
+}
+
+/* 425 screen */
+@media screen and (max-width:430px) {
+    .section2 img{
+        width: 70%;
+    }
+.mage{
+    width: 70%;
+}
+    .bigsect{
+    grid-template-columns: 1fr;
+}
+.section3{
+    flex-direction: column;
+}
+.section4{
+    flex-direction: column;
+}
+.short{
+    flex-direction: column;
+}
+.footer{
+    padding: 30px ;
+}
+ .bigsect>div>h2{
+    top: 68%; right: 30%;
+   }
+   #signup{ display: none;}
+}
+
+/* 375  */
+@media screen and (max-width:375px) {
+.section7>.sect7{
+align-items: center;
+  
+   
+
+}
+    
+}
+
+/* 325 screen */
+@media screen and (max-width:320px) {
+    .bigsect>div>h2{
+        top: 60%;
+        right: 25%;
+    }
+    .off2{
+        grid-template-columns: 1fr;
+    }
+    .sect7>img{
+        width: 70%;
+    }
+    .footer>div>img{
+        width: 70px;
+    }
+    .footer>.footlogo>img{
+    width: 14px;
+}
+.footlogo{
+   gap: 10px;
+}
+}
+}
