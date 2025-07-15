@@ -113,7 +113,7 @@ padding:  30px;
 } 
 .bigsect>div>h2{
     position: absolute;
-    top: 70%; right: 35%;
+    top: 60%; right: 35%;
     font-size: 15px;
     font-weight: 800;
     text-transform: uppercase;
@@ -561,7 +561,7 @@ width: 90px;
 /* 1024 screen */
 @media screen and (max-width:1024px) {
     .bigsect>div>h2{ position: absolute;
-        top: 50%; right: 20%;
+        top: 40%; right: 20%;
         
     }
 }  
@@ -573,7 +573,7 @@ width: 90px;
     grid-template-columns: 1fr 1fr;
    }
    .bigsect>div>h2{
-    top: 70%; right: 35%;
+    top: 60%; right: 35%;
    }
    .off1{
     grid-template-columns: 1fr;
@@ -607,7 +607,7 @@ width: 90px;
     padding: 30px ;
 }
  .bigsect>div>h2{
-    top: 68%; right: 30%;
+    top: 60%; right: 30%;
    }
    #signup{ display: none;}
 }
@@ -626,7 +626,7 @@ align-items: center;
 /* 325 screen */
 @media screen and (max-width:320px) {
     .bigsect>div>h2{
-        top: 60%;
+        top: 50%;
         right: 25%;
     }
     .off2{
@@ -645,4 +645,4 @@ align-items: center;
    gap: 10px;
 }
 }
-}
+
