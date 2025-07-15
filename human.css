@@ -626,7 +626,7 @@ align-items: center;
 /* 325 screen */
 @media screen and (max-width:320px) {
     .bigsect>div>h2{
-        top: 50%;
+        top: 51%;
         right: 25%;
     }
     .off2{
